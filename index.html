@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Details</title>
+</head>
+<body>
+
+    <h2>Student Information</h2>
+
+    <p id="name"></p>
+    <p id="city"></p>
+
+    <script>
+        // JSON data
+        let student = {
+            "name": "Priya",
+            "age": 22,
+            "city": "Bangalore"
+        };
+
+        // Display name and city
+        document.getElementById("name").innerHTML = "Name: " + student.name;
+        document.getElementById("city").innerHTML = "City: " + student.city;
+    </script>
+
+</body>
+</html>
